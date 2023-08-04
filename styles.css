@@ -59,6 +59,7 @@ header{
     height: 100%;
     backdrop-filter: blur(10px);
     z-index: -1;
+    filter: brightness(0.7);
 }
 
 .inicio2::before{
@@ -70,6 +71,7 @@ header{
     height: 100%;
     backdrop-filter: blur(10px);
     z-index: -1;
+    filter: brightness(0.7);
 }
 
 .inicio img{
@@ -87,6 +89,7 @@ header{
 }
 
 .text1{
+    color: #E8E5CC;
     width: 50%;
     flex: 1;
     z-index: 1;
