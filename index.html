@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Teko:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Teko:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <title>GemoPlanet</title>
 </head>
+
 <body>
     <header>
         <a href="" class="logo">
@@ -16,50 +20,156 @@
         </a>
     </header>
 
+    <!--PLANET-->
     <section class="inicio">
         <img src="img/24-06--2023_16-59-45.png" alt="PlanetGemo Cartel">
         <div class="text1">
             <h2>Planet Gemo</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate ullamcorper laoreet. Cras bibendum nunc ut nibh efficitur suscipit. Cras nec augue condimentum, imperdiet enim vitae, venenatis nisi. Mauris lobortis consequat condimentum. Pellentesque at auctor eros. Nullam tincidunt sapien auctor, commodo magna id, efficitur purus. Vivamus lacinia, nunc vitae ornare placerat, dui justo suscipit libero, tempor lacinia erat libero ut neque. Aenean in ipsum vitae nibh iaculis commodo sed a erat. Maecenas volutpat rhoncus tortor.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate ullamcorper laoreet. Cras bibendum
+                nunc ut nibh efficitur suscipit. Cras nec augue condimentum, imperdiet enim vitae, venenatis nisi.
+                Mauris lobortis consequat condimentum. Pellentesque at auctor eros. Nullam tincidunt sapien auctor,
+                commodo magna id, efficitur purus. Vivamus lacinia, nunc vitae ornare placerat, dui justo suscipit
+                libero, tempor lacinia erat libero ut neque. Aenean in ipsum vitae nibh iaculis commodo sed a erat.
+                Maecenas volutpat rhoncus tortor.</p>
         </div>
     </section>
 
+    <!--SUPPORT-->
     <section class="inicio2">
         <div class="text1">
             <h2>Support your local designer</h2>
-            <p class="parr1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate ullamcorper laoreet. Cras bibendum nunc ut nibh efficitur suscipit. Cras nec augue condimentum, imperdiet enim vitae, venenatis nisi. Mauris lobortis consequat condimentum. Pellentesque at auctor eros. Nullam tincidunt sapien auctor, commodo magna id, efficitur purus. Vivamus lacinia, nunc vitae ornare placerat, dui justo suscipit libero, tempor lacinia erat libero ut neque. Aenean in ipsum vitae nibh iaculis commodo sed a erat. Maecenas volutpat rhoncus tortor.</p>
+            <p class="parr1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate ullamcorper laoreet.
+                Cras bibendum nunc ut nibh efficitur suscipit. Cras nec augue condimentum, imperdiet enim vitae,
+                venenatis nisi. Mauris lobortis consequat condimentum. Pellentesque at auctor eros. Nullam tincidunt
+                sapien auctor, commodo magna id, efficitur purus. Vivamus lacinia, nunc vitae ornare placerat, dui justo
+                suscipit libero, tempor lacinia erat libero ut neque. Aenean in ipsum vitae nibh iaculis commodo sed a
+                erat. Maecenas volutpat rhoncus tortor.</p>
         </div>
-        <img src="img/24-06--2023_16-58-52.png" alt="PlanetGemo Cartel">
+        <img src="img/24-06--2023_16-58-52.png" alt="Support local designer Cartel">
     </section>
 
-    <section class="Form">
-        <h2 class="formTitle">Formulario de contacto</h2>
-
-        <form>
-            <div class="form-row">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-            </div>
-          
-            <div class="form-row">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-
-            <br><br>
-
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" required></textarea>
-
-            <br><br>
-
-            <input type="checkbox" id="suscripcion" name="suscripcion">
-            <label for="suscripcion">Suscribirse a nuestro boletín</label>
-
-            <br><br>
-
-            <input type="submit" value="Enviar">
-        </form>
+    <!--CREADOR-->
+    <section class="inicio3">
+        <div class="text1">
+            <h2>El Creador</h2>
+            <p class="parr1">Nuestro creador es Gemo Gutierrez de la ciudad de la plata, es un chabon copado que le
+                gusta hacer temitas y posters.</p>
+        </div>
+        <img src="img/efd97090-c57f-43ad-8770-092ff10bb24e-removebg-preview.png" alt="Gemo Barbie">
     </section>
+
+    <!--CARRITO DE FOTOS-->
+
+    <section class="carrito">
+
+        <h1 class="text__carrito">Otros trabajos</h1>
+
+        <div class="swiper mySwiper container__carr">
+            <div class="swiper-wrapper content__carr">
+                <div class="swiper-slide card">
+                    <div class="card__image">
+                        <img src="img/carrito/05-08--2023_16-57-24.png" alt="Lain experiment">
+                    </div>
+                </div>
+
+                <div class="swiper-slide card">
+                    <div class="card__image">
+                        <img src="img/carrito/05-08--2023_16-57-46.png" alt="Butterfly effect">
+                    </div>
+                </div>
+
+                <div class="swiper-slide card">
+                    <div class="card__image">
+                        <img src="img/carrito/05-08--2023_16-59-59.png" alt="Crossing portals">
+                    </div>
+                </div>
+
+                <div class="swiper-slide card">
+                    <div class="card__image">
+                        <img src="img/carrito/05-08--2023_17-00-20.png" alt="ELmato">
+                    </div>
+                </div>
+
+                <div class="swiper-slide card">
+                    <div class="card__image">
+                        <img src="img/carrito/05-08--2023_17-04-03.png" alt="Reflections">
+                    </div>
+                </div>
+
+                <div class="swiper-slide card">
+                    <div class="card__image">
+                        <img src="img/carrito/05-08--2023_17-04-17.png" alt="Depression">
+                    </div>
+                </div>
+
+                <div class="swiper-slide card">
+                    <div class="card__image">
+                        <img src="img/carrito/24-06--2023_16-58-03.png" alt="Laura palmer">
+                    </div>
+                </div>
+
+                <div class="swiper-slide card">
+                    <div class="card__image">
+                        <img src="img/carrito/vapormax.png" alt="vapormax">
+                    </div>
+                </div>
+
+                <div class="swiper-slide card">
+                    <div class="card__image">
+                        <img src="img/carrito/rave.png" alt="rave">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!--CONTACTO-->
+    <section class="contacto">
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13123.767379270677!2d-58.39939388104807!3d-34.68141719257811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccc94a4ced52b%3A0xbeead90ce69ea84f!2sLa%20Rioja%20943%2C%20B1824FHT%20Gerli%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1691260907184!5m2!1ses-419!2sar"
+            width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+        <div class="Form">
+            <form>
+                <h2 class="formTitle">Contacto</h2>
+                <div class="form-row">
+                    <label for="nombre" class="formulario__label">Nombre</label>
+                    <input class="formulario__input" type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="email" class="formulario__label">Email</label>
+                    <input class="formulario__input" type="email" id="email" name="email" required>
+                </div>
+
+                <label for="mensaje" class="formulario__label">Mensaje</label>
+                <textarea class="formulario__input" id="mensaje" name="mensaje" required></textarea>
+                
+                <div class="flex">
+                    <label for="suscripcion" class="formulario__label">Suscribirse a nuestro boletín</label>
+                    <input type="checkbox" id="suscripcion" name="suscripcion">
+                </div>
+                
+                <input class="formulario__submit" type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+    </script>
 </body>
+
 </html>
